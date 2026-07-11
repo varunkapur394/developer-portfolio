@@ -1,0 +1,27 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Node (future-proof)
+node_modules/
+
+# Build Output
+dist/
+build/
+
+# Java
+target/
+*.class
+
+# Miscellaneous
+*.tmp
