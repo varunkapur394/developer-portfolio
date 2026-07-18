@@ -1,63 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Varun Kapur - Software Engineer at Reliance Intelligence, building mobile and backend systems.">
     <title>Varun Kapur | Backend Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="top">
 
-<header>
-    //Navigation
+<header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="#">VK</a>
+
+        <div class="nav-links">
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 </header>
 
 <main>
 
-    <section>
+    <section class="hero">
 
         <div>
 
             <h1>Varun Kapur</h1>
 
-            <p>Software Engineer @ Reliance Intelligence</p>
+            <p class="hero-role">Software Engineer @ Reliance Intelligence</p>
 
-            <p>
+            <p class="hero-summary">
                 Software Engineer with 4+ years of experience delivering production applications across gaming, XR,
                 mobile and backend systems.
             </p>
 
         </div>
 
-        <div>
-
-            <a href="#">View Projects</a>
-
-            <a href="#">Download Resume</a>
-
+        <div class="action-links hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#contact">Contact me</a>
         </div>
 
-    </section>
-
-    <section>
 
     </section>
 
-    <section>
+    <section id="experience" class="content-section">
+        <div class="section-container">
+            <p class="section-label">Experience</p>
 
+            <h2>Software Engineer at Reliance Intelligence</h2>
+
+            <p class="section-meta">2024 — Present</p>
+
+            <p>
+                Building production applications across Unity, mobile development,
+                backend integrations, analytics, and AI-assisted engineering workflows.
+            </p>
+        </div>
     </section>
 
-    <section>
+    <section id="skills" class="content-section">
+        <div class="section-container">
+            <p class="section-label">Skills</p>
 
+            <h2>Technologies I use to build and ship products</h2>
+
+            <ul class="skill-list">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Android / Java</li>
+                <li>Node.js</li>
+                <li>TypeScript</li>
+                <li>Firebase</li>
+                <li>SQL</li>
+                <li>Analytics</li>
+                <li>Git</li>
+                <li>Java — Learning</li>
+            </ul>
+        </div>
     </section>
 
-    <section>
+    <section id="projects" class="content-section">
+        <div class="section-container">
+            <p class="section-label">Projects</p>
 
+            <h2>Work I am building in public</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <p class="project-status">In Progress</p>
+
+                    <h3>Developer Portfolio</h3>
+
+                    <p>
+                        A responsive personal portfolio built from scratch to document
+                        my transition toward backend engineering.
+                    </p>
+
+                    <ul class="project-stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>GitHub</li>
+                        <li>Vercel</li>
+                    </ul>
+
+                    <a href="#">View Repository</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="section-container">
+            <div class="contact-content">
+                <p class="section-label">Contact</p>
+
+                <h2>Let’s build something meaningful.</h2>
+
+                <p>
+                    I am open to backend-focused software engineering opportunities,
+                    technical conversations, and collaboration.
+                </p>
+
+                <div class="action-links contact-links">
+                    <a class="button button-primary"
+                       href="mailto:varunkapur394@gmail.com">
+                        Email Me
+                    </a>
+
+<!--                    <a class="button button-secondary" href="tel:+919560041410">-->
+<!--                        Call +91 9560041410-->
+<!--                    </a>-->
+
+                    <a class="button button-secondary"
+                       href="https://www.linkedin.com/in/varun-kapur-36854b176/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkaKQ0t6dR%2FWTuqvqMvhmpg%3D%3D"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                    <a class="button button-secondary"
+                       href="YOUR_GITHUB_URL"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
 </main>
 
-<footer>
+<footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2026 Varun Kapur. Built with HTML and CSS.</p>
 
+        <a href="#top">Back to top</a>
+    </div>
 </footer>
 
 </body>
