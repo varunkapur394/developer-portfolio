@@ -69,8 +69,12 @@ developer-portfolio/
 
 ---
 
+## Live Demo
+
+[View the live portfolio](https://developer-portfolio-lemon-three.vercel.app/)
+
+---
+
 ## Author
 
 Varun Kapur
-
-Backend Engineering University 2026
